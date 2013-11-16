@@ -13,9 +13,9 @@
 }
 
 body{
-	background: url('bg.jpg');
+	background: url('cyber.jpg');
 
-	background: url(bg.jpg) no-repeat center center fixed; 
+	background: url(cyber.jpg) no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
