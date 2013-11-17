@@ -3,11 +3,11 @@
 	<h2 class="h2-custom">
 
 		<%= simple_form_for @pic do |f|%>
-			<%= f.input :lesson %>
-			<%= f.input :emotion %>
-			<%= f.input :learned %>
+			<%= f.input :lesson, :label => 'Your Latest Lesson', :placeholder => '1, 2, etc.' %>
+			<%= f.input :emotion, :label => 'How do you feel?', :placeholder => "Sad, lonely, etc." %> 
+			<%= f.input :learned, :label => 'What did you learn?', :placeholder => "Rails, HTLML5, Github, etc.." %>
 
-			<%= submit_tag 'Save' %>
+			<%= submit_tag 'Save', :class => 'btn btn-warning btn-large' %>
 
 		<% end %>
 	</h2>
