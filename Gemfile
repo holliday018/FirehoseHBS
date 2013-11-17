@@ -32,9 +32,14 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+#This gem is CSS packages that make the website look nice
 gem "twitter-bootstrap-rails"
 
+# This gem builds web forms for us
 gem 'simple_form'
+
+# This gem helps us with photo uploads
+gem 'carrierwave'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

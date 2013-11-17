@@ -4,5 +4,7 @@ class AlterPics < ActiveRecord::Migration
 
   	# WRITE THE CODE TO CHANGE THE DB
 
+  	add_column :pics, :image, :string
+
   end
 end

@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20131117014316) do
     t.integer  "lesson"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "image"
   end
 
 end
