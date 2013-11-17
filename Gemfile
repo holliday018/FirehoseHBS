@@ -41,6 +41,9 @@ gem 'simple_form'
 # This gem helps us with photo uploads
 gem 'carrierwave'
 
+# This connects carrierwave image uploads to Amazon S3 services
+gem "fog", "~> 1.3.1"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
